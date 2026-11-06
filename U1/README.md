@@ -6,15 +6,15 @@ Este repositorio contiene la resolución de las 3 asignaciones correspondientes 
 
 A continuación, los accesos directos a cada uno de los ejercicios solicitados:
 
-1. 🥞 **[Ejercicio 1: Ejecución Secuencial](./U1/secuencial)** 
+1. 🥞 **[Ejercicio 1: Ejecución Secuencial](./U1/Secuencial)** 
    - **Script:** `desayuno.py`
    - **Descripción:** Demostración de un modelo bloqueante simulando la preparación de un desayuno, donde cada tarea debe finalizar completamente antes de que inicie la siguiente.
 
-2. 📨 **[Ejercicio 2: Ejecución Concurrente](./U1/concurrencia)** 
+2. 📨 **[Ejercicio 2: Ejecución Concurrente](./U1/Concurrencia)** 
    - **Script:** `ordenes.py`
    - **Descripción:** Implementación de procesamiento asíncrono utilizando `asyncio`. Simula el procesamiento de múltiples órdenes de compra al mismo tiempo mediante un bucle de eventos (event loop).
 
-3. 🛒 **[Ejercicio 3: Hilos con Lock (Condición de Carrera)](./U1/hilos_lock)** 
+3. 🛒 **[Ejercicio 3: Hilos con Lock (Condición de Carrera)](./U1/Hilos_Lock)** 
    - **Script:** `inventario.py`
    - **Descripción:** Simulación de un sistema de inventario transaccional. Utiliza `threading` y `Lock` para proteger una variable compartida (el stock) y evitar inconsistencias cuando múltiples clientes compran simultáneamente.
 
