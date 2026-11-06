@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  ejercicio_secuencial:
+    build: ./Secuencial
+    container_name: dist_secuencial
+    restart: "no"
+
+  ejercicio_concurrencia:
+    build: ./Concurrencia
+    container_name: dist_concurrencia
+    restart: "no"
+
+  ejercicio_hilos:
+    build: ./Hilos_Lock
+    container_name: dist_hilos_lock
+    restart: "no"
