@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  servidor:
+    image: python:3.11-alpine
+    container_name: servidor_chat
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: python servidor.py
+    ports:
+      - "5000:5000"
+    # Estas dos líneas permiten tener una terminal interactiva para escribir desde el servidor
+    stdin_open: true # equivalente a docker run -i
+    tty: true        # equivalente a docker run -t
